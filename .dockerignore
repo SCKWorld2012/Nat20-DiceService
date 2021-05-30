@@ -1,0 +1,10 @@
+node_modules
+README.md
+tests
+coverage
+.gitignore
+.prettierignore
+jest.config.js
+jest.setup.redis-mock.js
+api.yaml
+.env.template

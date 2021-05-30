@@ -1,0 +1,9 @@
+version: '3'
+services:
+    dice-service:
+        container_name: 'dice-service'
+        build: .
+        ports:
+            - '3000:3000'
+        env_file:
+            - .env
